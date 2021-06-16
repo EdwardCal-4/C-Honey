@@ -1,0 +1,24 @@
+{
+  "name": "Digital_Clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clock.js",
+  "dependencies": {
+    "gh-pages": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardCal-4/C-Honey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://EdwardCal-4.github.io/C-Honey",
+  "bugs": {
+    "url": "https://github.com/EdwardCal-4/C-Honey/issues"
+  }
+}
