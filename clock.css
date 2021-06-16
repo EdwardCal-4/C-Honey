@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.digitalClock {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    font-size: 2rem;
+    font-family: cursive;
+    transform: translateX(-50%) translateY(-50%);
+    color: #f81606fb;
+}
+
+.datesection {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: 10%; 
+    font-size: 2rem;
+    font-family: cursive;
+    transform: translateX(-50%) translateY(-50%);
+    color: #f81606fb;
+}
+
+.daysection {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: 20%; 
+    font-size: 2rem;
+    font-family: cursive;
+    transform: translateX(-50%) translateY(-50%);
+    color: #f81606fb;
+}
+
+
+@media screen and (max-width: 480px) {
+    .datesection {
+        margin-top: 20%;
+    }
+
+    .daysection {
+        margin-top: 55%;
+    }
+}
